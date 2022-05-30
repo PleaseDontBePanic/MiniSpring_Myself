@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?> 
+<beans>
+    <bean name="Hello" class="Tests.HelloService">
+        <property name="name" value="hjw"/>
+        <property name="year" value="23"/>
+    </bean>
+    <bean name="Tobean" class="Tests.ToService">
+        <property name="helloService" ref="Hello"/>
+    </bean>
+</beans>
