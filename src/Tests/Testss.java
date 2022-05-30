@@ -119,4 +119,8 @@ public class Testss {
         System.out.println(annotation.name());
     }
 
+    @Test
+    public void Update(){
+        System.out.println("update");
+    }
 }
